@@ -1,5 +1,18 @@
 # Tutorial 
 
+## Background 
+
+Over 20+ years in my industry, I've worked on and managed several mission-critical systems. Many suffer from fundamental issues that impact support, maintenance, evolvability, and general development. The root cause, in my opinion, is the lack of ground truth about the actual system architecture running in production. Instead, teams of developers and their leadership carry half-formed models in their heads and rely on occasional documentation that's often stale. As a result, everything suffers:
+
+New developers cannot form an accurate understanding of the system quickly. This delays their empowerment to become useful in the team.
+Misunderstanding of how the system is wired together delays the mean time to recovery from production issues. These misunderstandings have even resulted in human error and further production issues.
+Information for system performance, traffic analysis, and other metrics are spread across multiple monitoring and reporting systems, increasing the time it takes to diagnose the cause of an unhealthy system.
+
+It doesn't have to be this way. Modern observability tools can solve these problems elegantly, and it's now relatively easy to set up systems for observability. In this tutorial, I'm going to show one way of doing this using a local Kubernetes cluster via kind, along with Istio and Kiali.
+
+
+## Tutorial 
+
 This tutorial will guide you through every step needed to:
 - Create a local Kubernetes cluster using kind
 - Install Istio and all required observability tools
@@ -7,6 +20,7 @@ This tutorial will guide you through every step needed to:
 - Generate traffic and visualize service dependencies in Kiali
 
 ## Screen Cast
+
 [screencast.webm](https://github.com/user-attachments/assets/6d9dc7c9-809d-41eb-bde5-abac5812653d)
 
 ## Prerequisites & Installation
