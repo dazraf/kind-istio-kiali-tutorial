@@ -229,7 +229,7 @@ kubectl port-forward svc/productpage 9080:9080 &
 
 Open [http://localhost:9080/productpage](http://localhost:9080/productpage) and refresh the page several times.
 
-![the product page](product-page.png))
+![the product page](product-page.png)
 
 ### Option 2: Automated (Terminal)
 
