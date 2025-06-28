@@ -7,8 +7,9 @@ Over 20+ years in my industry, I've worked on and managed several mission-critic
 * New developers cannot form an accurate understanding of the system quickly. This delays their empowerment to become useful in the team.
 * Misunderstanding of how the system is wired together delays the mean time to recovery from production issues. These misunderstandings have even resulted in human error and further production issues.
 * Information for system performance, traffic analysis, and other metrics are spread across multiple monitoring and reporting systems, increasing the time it takes to diagnose the cause of an unhealthy system.
+* System architecture decisions can become protracted and error prone.
 
-It doesn't have to be this way. Modern observability tools can solve these problems elegantly, and it's now relatively easy to set up systems for observability. In this tutorial, I'm going to show one way of doing this using a local Kubernetes cluster via kind, along with Istio and Kiali.
+It doesn't have to be this way. Modern observability tools can solve these problems elegantly, and it's now relatively easy to set up systems for observability. In this tutorial, I'm going to show one way of doing this using a local Kubernetes cluster via [kind](https://kind.sigs.k8s.io/), along with [Istio](https://istio.io/) and [Kiali](https://kiali.io/).
 
 
 ## Tutorial 
