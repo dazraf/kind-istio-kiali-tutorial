@@ -6,6 +6,9 @@ This tutorial will guide you through every step needed to:
 - Deploy the BookInfo sample app
 - Generate traffic and visualize service dependencies in Kiali
 
+## Screen Cast
+[screencast.webm](https://github.com/user-attachments/assets/6d9dc7c9-809d-41eb-bde5-abac5812653d)
+
 ## Prerequisites & Installation
 This guide assumes a Linux system. If you are missing any tools, follow these steps:
 
