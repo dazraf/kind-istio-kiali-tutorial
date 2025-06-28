@@ -1,4 +1,4 @@
-# Istio BookInfo Demo on kind with Service Graph Visualization
+# Tutorial 
 
 This tutorial will guide you through every step needed to:
 - Create a local Kubernetes cluster using kind
